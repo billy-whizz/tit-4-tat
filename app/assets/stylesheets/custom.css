@@ -1,0 +1,170 @@
+﻿body {
+	font-family: "Trebuchet MS", "Bitstream Vera Sans", verdana, lucida, arial, helvetica, sans-serif;
+	font-size: 80%;
+	background: #ECF4E9;
+}
+.container {
+	width: 673px;
+	margin: 10px auto;
+	background: #fff;
+	
+}
+section {
+  margin-top: 0em;
+ 
+  padding: 0px;
+  background: #fff;
+}
+#top {
+	color: #FFFFFF;
+	width: 210px;
+	height: 140px;
+	background-color: #fff;
+}
+#topright {
+font-size: 15px;
+background-color: #ffffff;
+font-size: 200%;
+
+	float: right;
+	height: 140px;
+	width: 447px;
+	text-align: center;
+}
+.cl {
+clear:both;
+}
+#gallery {
+
+	padding-top: 5px;
+}
+#news {
+	width: 213px;
+	height: 470px;
+	margin-top: 5px;
+	background-color: #F7CB33;
+	color: #F7CB33;
+	padding: 4px;
+	float: right;
+}
+#menu {
+	width: 422px;
+	background-color: #F7CB33;
+	padding: 13px;
+	border-bottom: 4px solid #FFFFFF;
+	float: right;
+	
+}
+#menu a:link, #menu a:visited, #menu a:active {
+	background-color: #F7CB33;
+	padding: 13px;
+	text-decoration: none;
+	color: #000000;
+}
+#menu a:hover {
+	padding: 13px;
+	background-color: #6CC417;
+	text-decoration: none;
+	color: #FFFFFF
+}
+#content {
+	width: 446px;
+	float: left;
+	
+	margin-top: 5px;
+	background-color: #fff;
+}
+p {
+margin: 0 0 0 0px;
+}
+h1 {
+	padding: 4px;
+	margin: 4px;
+	font-size: 120%;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-bottom-width: 2px;
+	border-bottom-style: dotted;
+	border-bottom-color: #F7CB33;
+}
+h2 {
+text-align: center;
+	font-size: 300%;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+#pad {
+	padding: 12px;
+	color: #000000;
+}
+#footer {
+	background-color: #F7CB33;
+	padding: 12px;
+	width: 649px;
+	color:#000000;
+	font-size: 100%;
+	text-align: left;
+	clear:both;
+	border-top: 4px solid #FFFFFF;
+}
+#footer a:link, #footer a:active, #footer a:hover, #footer a:visited {
+	color:#09c;
+}
+h4 {
+	font-size: 180%;
+	color: #F01E1E;
+}
+h3 {
+	font-size: 180%;
+	color:   #F7CB33;
+}
+.field_with_errors {
+margin-top: 10px;
+padding: 2px;
+background-color: red;
+display: table;
+}
+.field_with_errors label {
+color: #fff;
+}
+#error_explanation {
+width: 400px;
+border: 2px solid red;
+padding: 7px;
+padding-bottom: 12px;
+margin-bottom: 20px;
+background-color: #f0f0f0;
+}
+#error_explanation h2 {
+text-align: left;
+font-weight: bold;
+padding: 5px 5px 5px 15px;
+font-size: 12px;
+margin: -7px;
+background-color: #c00;
+color: #fff;
+}
+#error_explanation p {
+color: #333;
+margin-bottom: 0;
+padding: 5px;
+}
+#error_explanation ul li {
+font-size: 12px;
+list-style: square;
+}
+ul.users {
+margin-top: 1em;
+}
+.users li {
+list-style: none;
+}
+a {
+  color: #5C3317;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #069;
+  text-decoration: underline;
+}

@@ -1,0 +1,15 @@
+﻿
+<div id="footer">
+<% if signed_in? %>
+<%= link_to "Profile", current_user %>
+<%= link_to "Settings", edit_user_path(current_user) %>
+<%= link_to "Users", users_path %>
+<%= link_to "Sign out", signout_path, :method => :delete %>
+<% else %>
+<%= link_to "Sign in", signin_path %>
+<% end %>
+<%= link_to "Careers at SSK", '#' %>
+<%= link_to "Products", products_path %>
+<%= link_to "Services", services_path %>
+<%= link_to "Contact us", new_contact_path %>
+SchoolSolutionsKenya(SSK) &copy; 2012 | All Rights Reserved 
